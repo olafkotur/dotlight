@@ -9,7 +9,7 @@ export const RequestUtil = {
    * @param headers - request headers
    * @param responseHeaders - flag to include response headers in result
    */
-  get: async (url: string, headers: IRequestHeaders = {}, responseHeaders = true): Promise<unknown> => {
+  get: async (url: string, headers: IRequestHeaders = {}, responseHeaders = false): Promise<unknown> => {
     const res = await RequestUtil.request({
       url,
       headers,
