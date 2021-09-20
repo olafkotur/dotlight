@@ -1,0 +1,11 @@
+/dist/**
+*.DS_STORE
+*.env
+*.csv
+*.vscode
+node_modules/
+packages/
+assets/db/*
+!assets/db/doNotRemove
+/scripts/out.txt
+dump/
